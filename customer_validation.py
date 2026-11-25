@@ -6,4 +6,5 @@ def validate_customer(customer_id,customer_name,age):
   if age <= 0:
     return "invalid"
   return "valid"
+  
 
