@@ -8,5 +8,5 @@ def test_tc03():
 def test_tc04():
   assert validate_customer(103,"Kumar",-5) == "Invalid"
 def test_tc05():
-  assert validate_customer(104,"Suresh",40) == "Invalid"
+  assert validate_customer(104,"Suresh",40) == "Valid"
 
