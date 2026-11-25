@@ -4,7 +4,7 @@ def validate_customer(customer_id,customer_name,age):
   if customer_name.strip() == "":
     return "Invalid"
   if age <= 0:
-    return "invalid"
-  return "valid"
+    return "Invalid"
+  return "Valid"
   
 
