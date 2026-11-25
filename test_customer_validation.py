@@ -5,4 +5,4 @@ def test_valid_csutomer():
     "age": 25,
     "email": "john@email.com"
   }
-  assert validate_customer(cutomer) ==  True
+  assert validate_customer(customer) ==  True
